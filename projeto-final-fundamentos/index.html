@@ -17,26 +17,68 @@
         <h1>Super conversor 3.000</h1>
     </header>
     <main>
-        <h2>Conversor Decimal-Binário</h2>
-        <label for="decimal">Número decimal:</label>
-        <input type="text" id="decimal">
-        <button onclick="converterDecBin()">Converter</button>
-        <p id="resultadoBinario"></p>
-        <h2>Conversor Binário-Decimal</h2>
-        <label for="binario">Número binário:</label>
-        <input type="text" id="binario">
-        <button onclick="converterBinDec()">Converter</button>
-        <p id="resultadoDecimal"></p>
-        <h2>Conversor Decimal-Hexadecimal</h2>
-        <label for="decimal">Número decimal:</label>
-        <input type="text" id="decimalHex">
-        <button onclick="converterDecHex()">Converter</button>
-        <p id="resultadoHexadecimal"></p>
-        <h2>Conversor Hexadecimal-Decimal</h2>
-        <label for="hexadecimal">Número Hexadecimal:</label>
-        <input type="text" id="hexadecimalDec">
-        <button onclick="converterHexDec()">Converter</button>
-        <p id="resultadoDecimalHex"></p>
+        <section class="apresentacao">
+            <div>
+                <h2>Sistemas de Numeração</h2>
+                <p>Neste trabalho, irei apresentar diferentes sistemas de numeração, além de desenvolver um programa que permita compreendê-los na prática, com um formulário onde o usuário poderá realizar a conversão entre os modelos</p>
+                <h2>Sistemas Abordados</h2>
+                <div class="box">
+                    <div>
+                        <h4 class="nome-sist">Decimal</h4>
+                        <h4>26</h4>
+                    </div>
+                    <div>
+                        <h4 class="nome-sist">Binário</h4>
+                        <h4>11010</h4>
+                    </div>
+                    <div>
+                        <h4 class="nome-sist">Hexadecimal</h4>
+                        <h4>#3039</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sistemas">
+            <h2>Decimal</h2>
+            <p>O sistema decimal é um sistema numérico baseado em 10 dígitos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. Cada posição em um número decimal representa uma potência de 10. É amplamente utilizado em todo o mundo devido à sua familiaridade e aplicação em cálculos matemáticos, valores monetários e medições.</p>
+
+            <h2>Binário</h2>
+            <p>O sistema binário é um sistema numérico que utiliza apenas dois dígitos, 0 e 1. Cada posição em um número binário representa uma potência de 2. É amplamente utilizado em computação e eletrônica, sendo a base fundamental para o funcionamento de sistemas digitais. Os números binários são usados para representar informações e realizar cálculos lógicos. A conversão entre binário e decimal é comum na programação e eletrônica.</p>
+
+            <h2>Hexadecimal</h2>
+            <p>O sistema hexadecimal é um sistema numérico que utiliza 16 dígitos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F. Ele é frequentemente utilizado em programação e ciência da computação para representar valores binários de forma mais compacta e legível. Cada dígito hexadecimal corresponde a um valor de 0 a 15. As letras de A a F são usadas para representar os valores de 10 a 15, oferecendo uma notação conveniente.</p>
+        </section>
+        <section class="dec-bin">
+                <h2>Conversor Decimal-Binário</h2>
+                <label for="decimal">Número decimal:</label>
+                <input type="text" id="decimal">
+                <button onclick="converterDecBin()">Converter</button>
+                <p id="resultadoBinario"></p>
+        </section>
+
+        <section class="bin-dec">
+            <h2>Conversor Binário-Decimal</h2>
+            <label for="binario">Número binário:</label>
+            <input type="text" id="binario">
+            <button onclick="converterBinDec()">Converter</button>
+            <p id="resultadoDecimal"></p>
+        </section>
+        
+        <section class="dec-hex">
+            <h2>Conversor Decimal-Hexadecimal</h2>
+            <label for="decimal">Número decimal:</label>
+            <input type="text" id="decimalHex">
+            <button onclick="converterDecHex()">Converter</button>
+            <p id="resultadoHexadecimal"></p>
+        </section>
+        
+        <section class="hex-dec">
+            <h2>Conversor Hexadecimal-Decimal</h2>
+            <label for="hexadecimal">Número Hexadecimal:</label>
+            <input type="text" id="hexadecimalDec">
+            <button onclick="converterHexDec()">Converter</button>
+            <p id="resultadoDecimalHex"></p>
+        </section>
         <script>
             function converterBinDec() {
                 var binario = document.getElementById("binario").value;
