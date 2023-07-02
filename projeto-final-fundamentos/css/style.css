@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    padding: 94px;
+    text-align: center;
+    background-image: url(../img/1688166809417.jpg);
+    background-size: 100%;
+    background-position-y: 50%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
