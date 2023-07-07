@@ -9,12 +9,13 @@ body{
     color: white;
 }
 h1{
-    padding: 94px;
+    padding: 54px;
     text-align: center;
-    background-image: url(../img/1688166809417.jpg);
-    background-size: 100%;
-    background-position-y: 50%;
+    color: #84ff32;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+h2{
+    color: #84ff32;
 }
 section{
     width: 75%;
@@ -24,18 +25,18 @@ section{
 h2, p, label{
     padding: 12px;
 }
-.sistemas{
-    background-image: url(../img/20200212225011898612u.jpg);
-    background-size: 100%;
-    background-position-y: 25%;
-}
 .apresentacao{
     margin-top: 54px;
     text-align: justify;
-    background-color: rgb(77, 77, 77);
-    background-image: url(../img/1688166809427.jpg);
-    background-size: 100%;
-    background-position-y: 25%;
+    padding: 24px;
+    border: 1px solid #84ff32;
+    border-radius: 24px 0 24px 0;
+}
+.sistemas{
+    margin-top: 32px;
+    padding: 24px;
+    border: 1px solid #84ff32;
+    border-radius: 0 24px 0 24px;
 }
 .box{
     width: 50%;
@@ -48,9 +49,9 @@ h2, p, label{
 .box div{
     width: 33.3%;
     height: 140px;
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(17, 17, 17);
     border-radius: 12px;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 24px;
 }
@@ -63,4 +64,30 @@ h4{
     position: relative;
     top: -38px;
     color: white;
+}
+#decimal, #binario, #decimalHex, #hexadecimalDec{
+    background-color: rgb(204, 204, 204);
+    color: black;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 6px 0 0 6px;
+}
+button{
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #9c9c9c;
+    translate: -10px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    padding: 18px;
 }
