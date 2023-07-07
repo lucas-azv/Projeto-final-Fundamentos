@@ -7,11 +7,7 @@
 3. Integrantes:
   - Lucas Borges de Azevedo
 
-4. Como Executar o Projeto:
-  Clone este repositório em sua máquina local.
-  Abra o arquivo index.html em seu navegador da web.
-
-5. Funcionalidades Implementadas:
+4. Funcionalidades Implementadas:
   Explicação detalhada sobre os sistemas de numeração (binário, decimal e hexadecimal).
   Exemplos de conversões entre as bases numéricas.
   Formulário para conversão de números decimais para binário e hexadecimal.
